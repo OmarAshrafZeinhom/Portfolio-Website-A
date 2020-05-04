@@ -1,0 +1,272 @@
+/* Main Styles */
+
+body {
+	font-family: "Verdana", sans-serif;
+	margin: 100px;
+	background-color: #990033;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+
+/* NavBar Styles */
+
+.nav-wrapper {
+	display:  flex;
+	justify-content: space-between;
+	padding: 38px;
+
+}
+
+.left-side {
+	display: flex;
+}
+
+.nav-wrapper> .left-side > div {
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	
+}
+.nav-links-wrapper-Experience {
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+.nav-links-wrapper {
+	height: 20px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s; 
+}
+
+.nav-links-wrapper a {
+	color: #FAFAFA;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-links-wrapper:hover {
+	border-bottom: 1px solid black;
+
+}
+
+.nav-links-wrapper a:hover {
+	color: black;
+
+}
+
+
+.Header-Text {
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+}
+
+
+
+/*Porto-folio Styles*/
+
+
+.portfolio-items-wrappers {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrappers {
+	position: relative;
+
+}
+
+
+.Background-img.Responsive {
+	vertical-align: left;
+	width: 450px;
+	height: auto;
+	border-radius: 450px;
+}
+
+.ProfilePic-Avatar-responsive {
+	vertical-align: middle;
+	max-width: 170px;
+	height: auto;
+	border-radius: 170px;
+}
+
+
+/*.portfolio-img-background {
+	height: 350px;
+	width: 350px;
+	background-size: cover; 
+	background-position: center;
+	background-repeat: no-repeat; 
+
+}
+*/
+
+
+
+/*.img-text-wrappers {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+*/
+
+/* About */
+
+.About-Body-Class {
+	font-family:font-family: "Verdana", sans-serif;
+	margin: 100px;
+	background-color: #990033; 
+}
+
+
+
+/* Certificates */
+
+.Certificates-Body-Class {
+	font-family:font-family: "Verdana", sans-serif;
+	margin: 100px;
+	background-color: #990033; 
+}
+
+.Entry-Text-About-Header {
+
+	vertical-align: middle;
+}
+.UdemyPythonCertifcate-Responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.FCC-Certificate-Responsive {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.CFI-Certificate-Responsive-Certificates {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+
+
+div {
+
+}
+
+
+
+h1 {
+	color : white;
+}
+
+p {
+	color : white;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+article {
+	color: #EDEACD;
+}
+
+
+
+title {
+	color : white;
+}
+
+
+
+
+p {
+	color: white;
+}
+
+a {
+	color : white;
+}
+
+
+
+
+
+img {
+	border-radius: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Certificates*/
+
+
+
+
+
+
+.UdemyPythonCertifcate-Responsive {
+	vertical-align: left;
+	width: 100%
+	height: auto;
+}
+
+
+.CFI-Certificate-Responsive {
+	vertical-align: right;
+	width: 100%
+	height: auto;
+	
+}
+
