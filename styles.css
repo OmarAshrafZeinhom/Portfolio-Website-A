@@ -9,12 +9,12 @@ body {
 }
 h1, h2, h3, h4, h5, h6 
 {
- 	font-family: 'Abril Fatface', serif;
+ 	font-family: 'Work Sans', sans-serif
 }
 
 p
  {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	font-weight: 900;
  	color: #ffffff;
 
@@ -22,7 +22,7 @@ p
 
 title 
 {
-	font-family: 'Abril Fatface', serif;
+	font-family: 'Work Sans', sans-serif;
 	color: #ffffff;
 }
 
@@ -31,11 +31,7 @@ a
 	color : #ffffff;
 }
 
-.Entry-Text-About
-{
-	color: #ffffff;
-	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
-}
+
 
 
 img 
@@ -51,73 +47,6 @@ img:hover
 	opacity: 1.00;
 }
 
-/* About-Flipping-Box */
-
-
-.about-flipping-box 
-{
-	position: relative;
-	top: calc(50% - 150px);
-	left: calc(50% - 100px);
-	transform: perspective(800px) rotateY(-35deg) ;
-	width: 150px;
-	height: 350px;
-	transform-style: preserve-3d;
-
-}
-
-.about-flipping-box:before {
-	content: '';
-	position: absolute;
-	bottom: -100px;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	background: #000;
-	filter: blur(40px);
-	opacity: 0.5;
-	transform: rotateX(90deg);
-}
-
-.about-flipping-box div {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	animation: animate 7s linear infinite;
-}
-
-.about-flipping-box div span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(0deg, #f1f1f1, #bbb, #f1f1f1);
-	border-radius: 20px;
-}
-
-
-.about-flipping-box div span:nth-child(1) 
-{
-	transform: rotateX(0deg);
-}
-
-.about-flipping-box div span:nth-child(2) 
-{
-	transform: rotateX(45deg);
-}
-.about-flipping-box div span:nth-child(3) 
-{
-	transform: rotateX(-45deg);
-}
-.about-flipping-box div span:nth-child(4) 
-{
-	transform: rotateX(90deg);
-}
 
 
 
@@ -127,7 +56,7 @@ img:hover
 {
 	display:  flex;
 	justify-content;
-	padding: 35px;
+	padding: 45px;
 	width: auto;
 	height: auto;
 
@@ -136,6 +65,8 @@ img:hover
 .left-side 
 {
 	display: flex;
+	justify-content;
+	position: left;
 }
 
 .right-side 
@@ -143,7 +74,7 @@ img:hover
 	display: flex;
 	justify-content;
 	padding: 35px
-	width: -10px;
+	width: 10px;
 	height: auto;
 
 }
@@ -181,12 +112,7 @@ img:hover
 }
 
 
-.Header-Text 
-{
-	display: flex;
-	justify-content: space-between;
-	text-decoration: none;
-}
+
 
 /* Transitions */
 
@@ -221,7 +147,7 @@ img:hover
   animation: expand .8s ease forwards;
   background-color: var(--secondary-color);
   position: relative;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   transition: all .8s ease;
 }
 
@@ -346,14 +272,8 @@ h1 {
 }
 
 
-/* About */
 
-.About-Body-Class 
-{
-	font-family:font-family: "Verdana", sans-serif;
-	margin: 100px;
-	background-color: #990033; 
-}
+
 
 
 
@@ -411,6 +331,106 @@ h1 {
 	height: auto;
 	opacity: 0.25;
 	border-radius: 50%
+}
+
+
+/* About */
+
+.About-Body-Class 
+{
+	font-family:font-family: "Verdana", sans-serif;
+	margin: 100px;
+	background-color: #990033; 
+}
+
+article
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 45em
+}
+
+.About-Header-Texts 
+{
+	display: flex;
+	margin-left: auto;
+    margin-right: auto;
+    width: 45em
+}
+
+.Entry-Text-About
+{
+	color: #ffffff;
+	font-family: 'Work Sans', sans-serif
+}
+
+
+/* About-Flipping-Box */
+
+
+.about-flipping-box 
+{
+	position: relative;
+	top: calc(50% - 150px);
+	left: calc(50% - 100px);
+	transform: perspective(800px) rotateY(-35deg) ;
+	width: 150px;
+	height: 350px;
+	transform-style: preserve-3d;
+
+}
+
+.about-flipping-box:before {
+	content: '';
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: #000;
+	filter: blur(40px);
+	opacity: 0.5;
+	transform: rotateX(90deg);
+}
+
+.about-flipping-box div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	animation: animate 7s linear infinite;
+}
+
+.about-flipping-box div span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, #f1f1f1, #bbb, #f1f1f1);
+	border-radius: 20px;
+}
+
+
+.about-flipping-box div span:nth-child(1) 
+{
+	transform: rotateX(0deg);
+}
+
+.about-flipping-box div span:nth-child(2) 
+{
+	transform: rotateX(45deg);
+}
+.about-flipping-box div span:nth-child(3) 
+{
+	transform: rotateX(-45deg);
+}
+.about-flipping-box div span:nth-child(4) 
+{
+	transform: rotateX(90deg);
 }
 
 
