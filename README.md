@@ -6,5 +6,5 @@ Descripition
 Fully Designed from scratch & still updating the website for more features#This is a simple based web domain based on HTML5  and CSS3#
 
 	<!-- Navigation Bar -->
-  <!-- Header-Summary -->
+  	<!-- Header-Summary -->
 	<!-- Footer-Avatar-Summary -->
